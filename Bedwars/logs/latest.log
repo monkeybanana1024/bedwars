@@ -1,0 +1,2415 @@
+[02:42:50] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[02:42:50] [Server thread/INFO]: Loading properties
+[02:42:50] [Server thread/INFO]: Default game type: SURVIVAL
+[02:42:51] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[02:42:51] [Server thread/INFO]: Debug logging is disabled
+[02:42:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:42:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:42:51] [Server thread/INFO]: Generating keypair
+[02:42:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:42:51] [Server thread/INFO]: Using epoll channel type
+[02:42:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:42:52] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.9;caf0ad9
+[02:42:52] [Server thread/INFO]: [SlimeWorldManager] Loading SlimeWorldManager v2.2.1
+[02:42:52] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[02:42:52] [Server thread/INFO]: [VoidWorld] Loading VoidWorld v1.0
+[02:42:52] [Server thread/INFO]: [Bedwars1058-Leave-Delay] Loading Bedwars1058-Leave-Delay v1.0.5
+[02:42:52] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[02:42:52] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[02:42:52] [Server thread/INFO]: [OldCombatMechanics] Loading OldCombatMechanics v1.12.2
+[02:42:52] [Server thread/INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
+[02:42:52] [Server thread/INFO]: [EaglerXServer] (Platform: Bukkit)
+[02:42:52] [Server thread/WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
+[02:42:52] [Server thread/WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
+[02:42:52] [Server thread/INFO]: [EaglerXServer] Server Name: "EaglercraftXServer"
+[02:42:52] [Server thread/ERROR]: [EaglerXServer] Could not load server icon: server-icon.png
+javax.imageio.IIOException: Can't read input file!
+	at javax.imageio.ImageIO.read(ImageIO.java:1264) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader.loadServerIcon(ServerIconLoader.java:112) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.ServerIconLoader$1.loadServerIcon(ServerIconLoader.java:51) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerListener.<init>(EaglerListener.java:90) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.loadNonProxying(EaglerXServer.java:376) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.base.EaglerXServer.load(EaglerXServer.java:341) ~[?:?]
+	at net.lax1dude.eaglercraft.backend.server.bukkit.PlatformPluginBukkit.onLoad(PlatformPluginBukkit.java:232) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:323) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1474) [?:?]
+[02:42:52] [Server thread/INFO]: [MasterCooldowns] Loading MasterCooldowns v1.6.1
+[02:42:52] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.7.0
+[02:42:52] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[02:42:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:42:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:42:53] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:42:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:42:54] [Server thread/INFO]: [EaglerXRewind-1.5] Loading EaglercraftXRewind-1-5 v1.0.2
+[02:42:54] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.7.0
+[02:42:54] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.3
+[02:42:54] [Server thread/INFO]: [EZColors] Loading EZColors v2.2.3
+[02:42:54] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.88
+[02:42:54] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[02:42:55] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_12_R1.CraftServer] null initializing ProtocolLib v5.0.0 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.<clinit>(NetworkManagerInjector.java:40) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:111) ~[?:?]
+	at com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:120) ~[?:?]
+	at com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:175) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:323) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection: Unable to make protected java.lang.Package java.lang.ClassLoader.getPackage(java.lang.String) accessible: module java.base does not "opens java.lang" to unnamed module @8b4e03f
+	at com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable$Unavailable.defineClass(ClassInjector.java:472) ~[?:?]
+	at com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection.injectRaw(ClassInjector.java:284) ~[?:?]
+	at com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase.inject(ClassInjector.java:118) ~[?:?]
+	at com.comphenix.net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default$InjectionDispatcher.load(ClassLoadingStrategy.java:241) ~[?:?]
+	at com.comphenix.net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default.load(ClassLoadingStrategy.java:148) ~[?:?]
+	at com.comphenix.net.bytebuddy.dynamic.TypeResolutionStrategy$Passive.initialize(TypeResolutionStrategy.java:101) ~[?:?]
+	at com.comphenix.net.bytebuddy.dynamic.DynamicType$Default$Unloaded.load(DynamicType.java:6317) ~[?:?]
+	at com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory.setupProxyPlayerConstructor(TemporaryPlayerFactory.java:159) ~[?:?]
+	at com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory.<clinit>(TemporaryPlayerFactory.java:47) ~[?:?]
+	... 8 more
+[02:42:55] [Server thread/INFO]: [ANM] Loading AdvancedNMotd v9.2.0
+[02:42:55] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[02:42:55] [Server thread/INFO]: [PluginHiderPlus] Loading PluginHiderPlus v5.2
+[02:42:55] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.3
+[02:42:55] [Server thread/INFO]: [GadgetsMenu] Loading GadgetsMenu v4.9.3
+[02:42:55] [Server thread/INFO]: [Economy] Loading Economy v2.3
+[02:42:55] [Server thread/INFO]: [SuperLobby] Loading SuperLobby v4.6.0
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.7.0
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[02:42:55] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[02:42:55] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.7-Release
+[02:42:55] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[02:42:55] [Server thread/INFO]: [BedWars1058] Loading BedWars1058 v23.2.1
+[02:42:55] [Server thread/INFO]: [BedWars1058] Loading support for paper/spigot: v1_12_R1
+[02:42:56] [Server thread/INFO]: [BedWars1058-GenSplit] Loading BedWars1058-GenSplit v0.3
+[02:42:56] [Server thread/INFO]: [BedWars1058-AntiDrop] Loading BedWars1058-AntiDrop v1.2.1
+[02:42:56] [Server thread/INFO]: [BedWars1058-TeamSelector] Loading BedWars1058-TeamSelector v0.7
+[02:42:56] [Server thread/INFO]: [BedWars1058-PlayAgain] Loading BedWars1058-PlayAgain v2.0.2
+[02:42:56] [Server thread/INFO]: [BedWars1058-MapSelector] Loading BedWars1058-MapSelector v1.3.1
+[02:42:56] [Server thread/INFO]: [BedWars1058-Compass] Loading BedWars1058-Compass v1.4.3
+[02:42:56] [Server thread/INFO]: [BedWars1058-RewardSummary] Loading BedWars1058-RewardSummary v1.0.4
+[02:42:56] [Server thread/INFO]: [BedWars1058-ArenaSetup] Loading BedWars1058-ArenaSetup v2.0
+[02:42:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:42:56] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0
+[02:42:56] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
+[02:42:56] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.88
+[02:42:57] [Server thread/INFO]:         __    
+[02:42:57] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.88
+[02:42:57] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:42:57] [Server thread/INFO]: 
+[02:42:57] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:42:57] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:42:58] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:42:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:42:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1888ms)
+[02:42:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[02:42:58] [Server thread/ERROR]: ******************************************************
+[02:42:58] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[02:42:58] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[02:42:58] [Server thread/ERROR]: ******************************************************
+[02:42:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[02:42:58] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[02:42:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:42:58] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[02:42:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:42:58] [Server thread/INFO]: [Economy] Enabling Economy v2.3
+[02:42:58] [Server thread/INFO]: [Economy] Vault found, Economy has been registered.
+[02:42:58] [Server thread/INFO]: [BedWars1058] Enabling BedWars1058 v23.2.1
+[02:42:58] [Server thread/INFO]: [BedWars1058] Hook into SlimeWorldManager support!
+[02:42:59] [Server thread/WARN]: java.io.IOException: No such file or directory
+[02:42:59] [Server thread/WARN]: 	at java.base/java.io.UnixFileSystem.createFileExclusively0(Native Method)
+[02:42:59] [Server thread/WARN]: 	at java.base/java.io.UnixFileSystem.createFileExclusively(UnixFileSystem.java:219)
+[02:42:59] [Server thread/WARN]: 	at java.base/java.io.File.createNewFile(File.java:949)
+[02:42:59] [Server thread/WARN]: 	at com.andrei1058.bedwars.arena.mapreset.slime.SlimeAdapter.handleLevelDat(SlimeAdapter.java:404)
+[02:42:59] [Server thread/WARN]: 	at com.andrei1058.bedwars.arena.mapreset.slime.SlimeAdapter.convertWorlds(SlimeAdapter.java:335)
+[02:42:59] [Server thread/WARN]: 	at com.andrei1058.bedwars.BedWars.loadArenasAndSigns(BedWars.java:644)
+[02:42:59] [Server thread/WARN]: 	at com.andrei1058.bedwars.BedWars.onEnable(BedWars.java:365)
+[02:42:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[02:42:59] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316)
+[02:42:59] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[02:42:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395)
+[02:42:59] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344)
+[02:42:59] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223)
+[02:42:59] [Server thread/WARN]: 	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616)
+[02:42:59] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena party was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Loading arena: party
+[02:42:59] [Server thread/ERROR]: [BedWars1058] You didn't set any team for arena: mario
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena plants was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena submarine was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena city was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena lighthousesolo was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena martian4v4v4v4 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena party3v3v3v3 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena paris3v3v3v3 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena panda was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena town4v4v4v4 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena arabic was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena desertsolo was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena lighthouse was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena plants4v4v4v4 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena giftdouble was added to the enable queue.
+[02:42:59] [Server thread/WARN]: [BedWars1058] There isn't any map called glacier
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena christmas3v3v3v3 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena valleysolo was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena mario1v1 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena pandasolo was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena desert was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena radio was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena glacierdoubles was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena city3v3v3v3 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena sea was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena radio3v3v3v3 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena martian was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena laptop4v4v4v4 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena submarine4v4v4v4 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena arabic3v3v3v3 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena town was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena laptop was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena gift was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena thepandas4v4 was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena seasolo was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena valley was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena thepandas was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena paris was added to the enable queue.
+[02:42:59] [Server thread/INFO]: [BedWars1058] Arena christmas was added to the enable queue.
+[02:43:00] [Server thread/INFO]: [BedWars1058] Hooked into PlaceholderAPI support!
+[02:43:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bw1058 [23.2.1]
+[02:43:00] [Server thread/INFO]: [BedWars1058] Initializing SidebarLib by andrei1058
+[02:43:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:43:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:43:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:43:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:43:00] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:43:00] [Server thread/INFO]: Preparing level "world"
+[02:43:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:43:00] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:00] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:00] [Server thread/INFO]: Structure Info Saving: true
+[02:43:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:00] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:00] [Server thread/INFO]: View Distance: 10
+[02:43:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:01] [Server thread/INFO]: Preparing start region for level 0 (Seed: 7932499452514735514)
+[02:43:02] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.9;caf0ad9
+[02:43:02] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:43:02] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[02:43:02] [Server thread/INFO]: [SlimeWorldManager] Enabling SlimeWorldManager v2.2.1
+[02:43:02] [Server thread/INFO]: [SWM] Checking for updates...
+[02:43:03] [Server thread/INFO]: [SWM] You are running the latest version of Slime World Manager.
+[02:43:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[02:43:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:43:03] [Server thread/INFO]: [Bedwars1058-Leave-Delay] Enabling Bedwars1058-Leave-Delay v1.0.5
+[02:43:03] [Server thread/INFO]: [Bedwars1058-Leave-Delay] Plugin enabled successfully!
+[02:43:03] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727
+[02:43:03] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: BedwarsLobby
+[02:43:03] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[02:43:03] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: bedwarslobbby
+[02:43:03] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[02:43:03] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: bedwarslobby
+[02:43:03] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[02:43:03] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[02:43:04] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[02:43:04] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[02:43:04] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:43:04] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:43:04] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[02:43:04] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:43:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:43:04] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:43:04] [Server thread/INFO]: [OldCombatMechanics] Enabling OldCombatMechanics v1.12.2
+[02:43:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ocm [1.12.2]
+[02:43:04] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v1.12.2 has been enabled
+[02:43:04] [Server thread/INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
+[02:43:04] [Server thread/INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[02:43:04] [Netty Epoll Server IO #0/INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0xd18e4dff, L:/[0:0:0:0:0:0:0:0%0]:25565] successfully (Generic Netty method)
+[02:43:04] [Server thread/INFO]: [EaglerXServer] Connected to skin cache database successfully!
+[02:43:04] [Server thread/INFO]: [MasterCooldowns] Enabling MasterCooldowns v1.6.1
+[02:43:04] [Server thread/INFO]: [MasterCooldowns] No cooldowns found.
+[02:43:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mcd [1.6.1]
+[02:43:04] [Server thread/INFO]: [MasterCooldowns] PlaceholderAPI hook enabled.
+[02:43:04] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[02:43:04] [Server thread/INFO]: [EaglerXRewind-1.5] Enabling EaglercraftXRewind-1-5 v1.0.2
+[02:43:04] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[02:43:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[02:43:04] [Server thread/INFO]: [EZColors] Enabling EZColors v2.2.3
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  Updates are available for EaglerXServer
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  ---------------------------------------
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :< Active: 1.0.7
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]    :> Latest: 1.0.8
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  https://lax1dude.net/eaglerxserver/
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer]  -----------------------------------
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] 
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[02:43:04] [Netty Epoll Server IO #1/WARN]: [EaglerXServer] =============================================
+[02:43:06] [Server thread/INFO]: EZColors »  Successfully downloaded 12 languages from the cloud!
+[02:43:06] [Server thread/INFO]: EZColors »  Loading EZColors v2.2.3!
+[02:43:06] [Server thread/INFO]: EZColors »  Found a compatible version. Hooking into V1_12_R1!
+[02:43:06] [Server thread/INFO]: EZColors »  Using HIGHEST as the Chat Listener.
+[02:43:06] [Server thread/INFO]: EZColors »  Found PlaceholderAPI. Loading hook!
+[02:43:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ezcolors [1.0.0]
+[02:43:06] [Server thread/INFO]: EZColors »  Successfully Loaded EZColors v2.2.3 in 1309ms!
+[02:43:06] [Server thread/INFO]: [ANM] Enabling AdvancedNMotd v9.2.0
+[02:43:06] [Server thread/INFO]: 
+[02:43:06] [Server thread/INFO]: ---------------- AdvancedNMotd --------------
+[02:43:06] [Server thread/INFO]:            AdvancedNMotd is enabled!
+[02:43:06] [Server thread/INFO]: ---------------------------------------------
+[02:43:06] [Server thread/INFO]: 
+[02:43:06] [Server thread/INFO]: [PluginHiderPlus] Enabling PluginHiderPlus v5.2
+[02:43:06] [Server thread/ERROR]: Error occurred while enabling PluginHiderPlus v5.2 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/comphenix/protocol/ProtocolLibrary
+	at it.mikypro.pluginhider.PluginHiderPlus.onEnable(PluginHiderPlus.java:31) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:316) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.ProtocolLibrary
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:377) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:156) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 12 more
+[02:43:06] [Server thread/INFO]: [PluginHiderPlus] Disabling PluginHiderPlus v5.2
+[02:43:06] [Server thread/ERROR]: Error occurred while disabling PluginHiderPlus v5.2 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/comphenix/protocol/ProtocolLibrary
+	at it.mikypro.pluginhider.PluginHiderPlus.onDisable(PluginHiderPlus.java:47) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:350) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:437) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:320) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:395) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:344) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:442) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:403) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:341) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:289) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Thread.java:1474) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.ProtocolLibrary
+	... 14 more
+[02:43:06] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.3
+[02:43:06] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.9.3
+[02:43:06] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]         GadgetsMenu [Free] 4.9.3 is loading...
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]         [server: git-Paper-1620 (MC: 1.12.2)]
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]                  Running Java 25.0.1
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]              Date Modified: 18 June 2023
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]                            
+[02:43:06] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_12_R1
+[02:43:06] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[02:43:07] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[02:43:07] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[02:43:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gadgetsmenu [1.0.2]
+[02:43:07] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[02:43:07] [Server thread/INFO]: [SuperLobby] Enabling SuperLobby v4.6.0
+[02:43:07] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[02:43:07] [Server thread/INFO]:    _____                       _           _     _           
+[02:43:07] [Server thread/INFO]:   / ____|                     | |         | |   | |          
+[02:43:07] [Server thread/INFO]:  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _ 
+[02:43:07] [Server thread/INFO]:   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | |
+[02:43:07] [Server thread/INFO]:   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| |
+[02:43:07] [Server thread/INFO]:  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |
+[02:43:07] [Server thread/INFO]:               | |                                       __/ |
+[02:43:07] [Server thread/INFO]:               |_|                                      |___/ 
+[02:43:07] [Server thread/INFO]:     
+[02:43:07] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[02:43:07] [Server thread/INFO]: [SuperLobby] Deluxe Version: V4.6.0
+[02:43:07] [Server thread/INFO]: [SuperLobby] Plugin Create by PedroJM96.
+[02:43:07] [Server thread/INFO]: [SuperLobby] Loading Libraries...
+[02:43:07] [Server thread/INFO]: [SuperLobby] Loading library commons-lang-commons-lang-2.6
+[02:43:07] [Server thread/INFO]: [SuperLobby] commons-lang-commons-lang-2.6 library loaded successfully.
+[02:43:07] [Server thread/INFO]: [SuperLobby] Loading library commons-codec-commons-codec-1.15
+[02:43:07] [Server thread/INFO]: [SuperLobby] commons-codec-commons-codec-1.15 library loaded successfully.
+[02:43:07] [Server thread/INFO]: [SuperLobby] Loading library com.google.code.gson-gson-2.9.0
+[02:43:07] [Server thread/INFO]: [SuperLobby] com.google.code.gson-gson-2.9.0 library loaded successfully.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Loading configuration...
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load config.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] config.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load messages_EN.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] messages_EN.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load spawn.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] spawn.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load chat.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] chat.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load infocommands.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] infocommands.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register info command /help
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load customevents.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] customevents.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load items.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] items.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load menus.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] menus.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register command menu /menu
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register command menu /game
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register command menu /profile
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register command menu /shop
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load board.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] board.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load announcer.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] announcer.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Load firstjoin.yml
+[02:43:08] [Server thread/INFO]: [SuperLobby] firstjoin.yml loaded.
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register commands...
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register main command superlobby
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command setspawn
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command setspawnpermission
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command setspawnradius
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command remspawn
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command reload
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command help
+[02:43:08] [Server thread/INFO]: [SuperLobby] Register sub-command openmenu
+[02:43:08] [Server thread/INFO]: [SuperLobby] Hooked Vault Permissions
+[02:43:08] [Server thread/INFO]: [SuperLobby] Hooked Vault Chat
+[02:43:08] [Server thread/INFO]: [SuperLobby] Hooked Vault economy
+[02:43:08] [Server thread/INFO]: [SuperLobby] Hooked PlaceholderAPI
+[02:43:08] [Server thread/INFO]: [SuperLobby] Hooked ViaVersion
+[02:43:08] [Server thread/INFO]: [SuperLobby] A total of 4 menus were loaded.
+[02:43:08] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[02:43:08] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.7.0
+[02:43:08] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[02:43:09] [Server thread/INFO]: [ajLeaderboards] The columns already exist for bw1058_stats_bedsdestroyed. Canceling updater and bumping DB version.
+[02:43:09] [Server thread/INFO]: [ajLeaderboards] The columns already exist for bw1058_stats_total_kills. Canceling updater and bumping DB version.
+[02:43:09] [Server thread/INFO]: [ajLeaderboards] The columns already exist for bw1058_stats_wins. Canceling updater and bumping DB version.
+[02:43:09] [Server thread/INFO]: [ajLeaderboards] Loaded 3 boards
+[02:43:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ajlb [2.7.0]
+[02:43:09] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[02:43:09] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.7.0 by ajgeiss0702 enabled!
+[02:43:09] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.7-Release
+[02:43:09] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[02:43:09] [Server thread/INFO]: [DeluxeMenus] 6 GUI menus loaded!
+[02:43:09] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[02:43:09] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[02:43:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus [1.13.7-Release]
+[02:43:09] [Server thread/INFO]: [BedWars1058-GenSplit] Enabling BedWars1058-GenSplit v0.3
+[02:43:09] [Server thread/INFO]:  
+[02:43:09] [Server thread/INFO]: BedWars1058 Generator Split
+[02:43:09] [Server thread/INFO]: by kimoVoid
+[02:43:09] [Server thread/INFO]:  
+[02:43:09] [Server thread/INFO]: [BedWars1058-AntiDrop] Enabling BedWars1058-AntiDrop v1.2.1
+[02:43:09] [Server thread/INFO]: [BedWars1058-TeamSelector] Enabling BedWars1058-TeamSelector v0.7
+[02:43:09] [Server thread/INFO]: [BedWars1058-TeamSelector] Hook into BedWars1058!
+[02:43:09] [Server thread/INFO]: [BedWars1058-PlayAgain] Enabling BedWars1058-PlayAgain v2.0.2
+[02:43:09] [Server thread/INFO]: [BedWars1058-MapSelector] Enabling BedWars1058-MapSelector v1.3.1
+[02:43:09] [Server thread/INFO]: [BedWars1058-MapSelector] Hooked into BedWars1058
+[02:43:09] [Server thread/INFO]: [BedWars1058-MapSelector] Connected to the database
+[02:43:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mapselector [1.3.1]
+[02:43:09] [Server thread/INFO]: [BedWars1058-MapSelector] BedWars1058-MapSelector plugin by itz_leoo has been successfully enabled.
+[02:43:09] [Server thread/INFO]: [BedWars1058-Compass] Enabling BedWars1058-Compass v1.4.3
+[02:43:09] [Server thread/INFO]: [BedWars1058-Compass] Hook into Vault chat support
+[02:43:09] [Server thread/INFO]: [BedWars1058-Compass] Successfully loaded in 474ms
+[02:43:09] [Server thread/INFO]: [BedWars1058-RewardSummary] Enabling BedWars1058-RewardSummary v1.0.4
+[02:43:09] [Server thread/INFO]: BedWars1058 Reward Summary addon has been successfully enabled.
+[02:43:09] [Server thread/INFO]: [BedWars1058-ArenaSetup] Enabling BedWars1058-ArenaSetup v2.0
+[02:43:10] [Server thread/INFO]: Done (9.264s)! For help, type "help" or "?"
+[02:43:10] [Server thread/INFO]: Timings Reset
+[02:43:10] [Server thread/INFO]: [BedWars1058] Hooked into vault chat support!
+[02:43:10] [Craft Scheduler Thread - 1/INFO]: [SWM] Loading world party.
+[02:43:10] [Server thread/INFO]: [BedWars1058] Hooked into vault economy support!
+[02:43:10] [Craft Scheduler Thread - 2/INFO]: [DecentHolograms] Loading holograms... 
+[02:43:10] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] Checking for updates...
+[02:43:10] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[02:43:10] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[02:43:10] [Craft Scheduler Thread - 1/INFO]: [SWM] World party loaded in 136ms.
+[02:43:10] [Craft Scheduler Thread - 4/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.9.3, available version 4.21.0.
+[02:43:10] [Craft Scheduler Thread - 7/INFO]: 
+A newer version of DecentHolograms is available. Download it from: https://www.spigotmc.org/resources/96927/
+[02:43:10] [Craft Scheduler Thread - 2/INFO]: [DecentHolograms] Loaded 14 holograms!
+[02:43:10] [Server thread/INFO]: 
+[02:43:10] [Server thread/INFO]: ------------ AdvancedNMotd Updater ----------
+[02:43:10] [Server thread/INFO]: The version you use is outdated!
+[02:43:10] [Server thread/INFO]: Please, update to 10.0.0 to improve performance.
+[02:43:10] [Server thread/INFO]: This copy is not going to run when appropriate release will be out!
+[02:43:10] [Server thread/INFO]: ---------------------------------------------
+[02:43:10] [Server thread/INFO]: 
+[02:43:10] [Server thread/INFO]: [SuperLobby] An update was found! for SuperLobby. Please update to recieve latest version. download: https://www.spigotmc.org/resources/20400
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:43:10] [Server thread/INFO]: -------- World Settings For [party] --------
+[02:43:10] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:10] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:10] [Server thread/INFO]: Structure Info Saving: true
+[02:43:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:10] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:10] [Server thread/INFO]: View Distance: 10
+[02:43:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:10] [Server thread/INFO]: [SWM] Loading world party
+[02:43:10] [Server thread/INFO]: [BedWars1058] Loading arena: plants
+[02:43:10] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: party
+[02:43:10] [Server thread/INFO]: [BedWars1058] Load done: party
+[02:43:10] [Server thread/INFO]: [WorldGuard] (party) TNT ignition is PERMITTED.
+[02:43:10] [Server thread/INFO]: [WorldGuard] (party) Lighters are PERMITTED.
+[02:43:10] [Server thread/INFO]: [WorldGuard] (party) Lava fire is blocked.
+[02:43:10] [Server thread/INFO]: [WorldGuard] (party) Fire spread is UNRESTRICTED.
+[02:43:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'party'
+[02:43:10] [Server thread/INFO]: [SWM] World party loaded in 16ms.
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.7) is available at:
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.8.1]
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.2]
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms [5.4-R2]
+[02:43:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bw1058plus [1.2.2]
+[02:43:10] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion gemseconomy due to a missing plugin: GemsEconomy
+[02:43:10] [Server thread/INFO]: 5 placeholder hook(s) registered! 3 placeholder hook(s) have an update available.
+[02:43:10] [Craft Scheduler Thread - 7/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[02:43:10] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world plants.
+[02:43:10] [Server thread/INFO]: [BedWars1058] Loading internal Party system. /party
+[02:43:10] [Craft Scheduler Thread - 9/INFO]: [SWM] World plants loaded in 23ms.
+[02:43:10] [Server thread/INFO]: -------- World Settings For [plants] --------
+[02:43:10] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:10] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:10] [Server thread/INFO]: Structure Info Saving: true
+[02:43:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:10] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:10] [Server thread/INFO]: View Distance: 10
+[02:43:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:10] [Server thread/INFO]: [SWM] Loading world plants
+[02:43:10] [Server thread/INFO]: [BedWars1058] Loading arena: submarine
+[02:43:10] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: plants
+[02:43:10] [Server thread/INFO]: [BedWars1058] Load done: plants
+[02:43:10] [Server thread/INFO]: [WorldGuard] (plants) TNT ignition is PERMITTED.
+[02:43:10] [Server thread/INFO]: [WorldGuard] (plants) Lighters are PERMITTED.
+[02:43:10] [Server thread/INFO]: [WorldGuard] (plants) Lava fire is blocked.
+[02:43:10] [Server thread/INFO]: [WorldGuard] (plants) Fire spread is UNRESTRICTED.
+[02:43:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'plants'
+[02:43:10] [Server thread/INFO]: [SWM] World plants loaded in 10ms.
+[02:43:10] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world submarine.
+[02:43:11] [Craft Scheduler Thread - 9/INFO]: [SWM] World submarine loaded in 20ms.
+[02:43:11] [Server thread/INFO]: -------- World Settings For [submarine] --------
+[02:43:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:11] [Server thread/INFO]: Structure Info Saving: true
+[02:43:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:11] [Server thread/INFO]: View Distance: 10
+[02:43:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:11] [Craft Scheduler Thread - 12/INFO]: [OldCombatMechanics] An update for OldCombatMechanics to version 2.2.0 is available!
+[02:43:11] [Craft Scheduler Thread - 12/INFO]: [OldCombatMechanics] Click here to download it: https://www.spigotmc.org/resources/oldcombatmechanics.19510/update?update=615881
+[02:43:11] [Server thread/INFO]: [SWM] Loading world submarine
+[02:43:11] [Server thread/INFO]: [BedWars1058] Loading arena: city
+[02:43:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: submarine
+[02:43:11] [Server thread/INFO]: [BedWars1058] Load done: submarine
+[02:43:11] [Server thread/INFO]: [WorldGuard] (submarine) TNT ignition is PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (submarine) Lighters are PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (submarine) Lava fire is blocked.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (submarine) Fire spread is UNRESTRICTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'submarine'
+[02:43:11] [Server thread/INFO]: [SWM] World submarine loaded in 6ms.
+[02:43:11] [Craft Scheduler Thread - 12/INFO]: [SWM] Loading world city.
+[02:43:11] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.7.0, you're on: 4.7.0
+[02:43:11] [Craft Scheduler Thread - 12/INFO]: [SWM] World city loaded in 17ms.
+[02:43:11] [Server thread/INFO]: -------- World Settings For [city] --------
+[02:43:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:11] [Server thread/INFO]: Structure Info Saving: true
+[02:43:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:11] [Server thread/INFO]: View Distance: 10
+[02:43:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:11] [Server thread/INFO]: [SWM] Loading world city
+[02:43:11] [Server thread/INFO]: [BedWars1058] Loading arena: lighthousesolo
+[02:43:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: city
+[02:43:11] [Server thread/INFO]: [BedWars1058] Load done: city
+[02:43:11] [Server thread/INFO]: [WorldGuard] (city) TNT ignition is PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (city) Lighters are PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (city) Lava fire is blocked.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (city) Fire spread is UNRESTRICTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'city'
+[02:43:11] [Server thread/INFO]: [SWM] World city loaded in 7ms.
+[02:43:11] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world lighthousesolo.
+[02:43:11] [Craft Scheduler Thread - 2/INFO]: [SWM] World lighthousesolo loaded in 93ms.
+[02:43:11] [Server thread/INFO]: -------- World Settings For [lighthousesolo] --------
+[02:43:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:11] [Server thread/INFO]: Structure Info Saving: true
+[02:43:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:11] [Server thread/INFO]: View Distance: 10
+[02:43:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:11] [Server thread/INFO]: [SWM] Loading world lighthousesolo
+[02:43:11] [Server thread/INFO]: [BedWars1058] Loading arena: martian4v4v4v4
+[02:43:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthousesolo
+[02:43:11] [Server thread/INFO]: [BedWars1058] Load done: lighthousesolo
+[02:43:11] [Server thread/INFO]: [WorldGuard] (lighthousesolo) TNT ignition is PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (lighthousesolo) Lighters are PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (lighthousesolo) Lava fire is blocked.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (lighthousesolo) Fire spread is UNRESTRICTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lighthousesolo'
+[02:43:11] [Server thread/INFO]: [SWM] World lighthousesolo loaded in 8ms.
+[02:43:11] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world martian4v4v4v4.
+[02:43:11] [Craft Scheduler Thread - 2/INFO]: [SWM] World martian4v4v4v4 loaded in 24ms.
+[02:43:11] [Server thread/INFO]: -------- World Settings For [martian4v4v4v4] --------
+[02:43:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:11] [Server thread/INFO]: Structure Info Saving: true
+[02:43:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:11] [Server thread/INFO]: View Distance: 10
+[02:43:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:11] [Server thread/INFO]: [SWM] Loading world martian4v4v4v4
+[02:43:11] [Server thread/INFO]: [BedWars1058] Loading arena: party3v3v3v3
+[02:43:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: martian4v4v4v4
+[02:43:11] [Server thread/INFO]: [BedWars1058] Load done: martian4v4v4v4
+[02:43:11] [Server thread/INFO]: [WorldGuard] (martian4v4v4v4) TNT ignition is PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (martian4v4v4v4) Lighters are PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (martian4v4v4v4) Lava fire is blocked.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (martian4v4v4v4) Fire spread is UNRESTRICTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'martian4v4v4v4'
+[02:43:11] [Server thread/INFO]: [SWM] World martian4v4v4v4 loaded in 14ms.
+[02:43:11] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world party3v3v3v3.
+[02:43:11] [Craft Scheduler Thread - 9/INFO]: [SWM] World party3v3v3v3 loaded in 32ms.
+[02:43:11] [Server thread/INFO]: -------- World Settings For [party3v3v3v3] --------
+[02:43:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:11] [Server thread/INFO]: Structure Info Saving: true
+[02:43:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:11] [Server thread/INFO]: View Distance: 10
+[02:43:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:11] [Server thread/INFO]: [SWM] Loading world party3v3v3v3
+[02:43:11] [Server thread/INFO]: [BedWars1058] Loading arena: paris3v3v3v3
+[02:43:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: party3v3v3v3
+[02:43:11] [Server thread/INFO]: [BedWars1058] Load done: party3v3v3v3
+[02:43:11] [Server thread/INFO]: [WorldGuard] (party3v3v3v3) TNT ignition is PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (party3v3v3v3) Lighters are PERMITTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (party3v3v3v3) Lava fire is blocked.
+[02:43:11] [Server thread/INFO]: [WorldGuard] (party3v3v3v3) Fire spread is UNRESTRICTED.
+[02:43:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'party3v3v3v3'
+[02:43:11] [Server thread/INFO]: [SWM] World party3v3v3v3 loaded in 7ms.
+[02:43:11] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world paris3v3v3v3.
+[02:43:11] [Craft Scheduler Thread - 9/INFO]: [SWM] World paris3v3v3v3 loaded in 15ms.
+[02:43:11] [Server thread/INFO]: -------- World Settings For [paris3v3v3v3] --------
+[02:43:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:11] [Server thread/INFO]: Structure Info Saving: true
+[02:43:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:11] [Server thread/INFO]: View Distance: 10
+[02:43:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:12] [Server thread/INFO]: [SWM] Loading world paris3v3v3v3
+[02:43:12] [Server thread/INFO]: [BedWars1058] Loading arena: panda
+[02:43:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: paris3v3v3v3
+[02:43:12] [Server thread/INFO]: [BedWars1058] Load done: paris3v3v3v3
+[02:43:12] [Server thread/INFO]: [WorldGuard] (paris3v3v3v3) TNT ignition is PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (paris3v3v3v3) Lighters are PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (paris3v3v3v3) Lava fire is blocked.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (paris3v3v3v3) Fire spread is UNRESTRICTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'paris3v3v3v3'
+[02:43:12] [Server thread/INFO]: [SWM] World paris3v3v3v3 loaded in 10ms.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world panda.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] World panda loaded in 18ms.
+[02:43:12] [Server thread/INFO]: -------- World Settings For [panda] --------
+[02:43:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:12] [Server thread/INFO]: Structure Info Saving: true
+[02:43:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:12] [Server thread/INFO]: View Distance: 10
+[02:43:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:12] [Server thread/INFO]: [SWM] Loading world panda
+[02:43:12] [Server thread/INFO]: [BedWars1058] Loading arena: town4v4v4v4
+[02:43:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: panda
+[02:43:12] [Server thread/INFO]: [BedWars1058] Load done: panda
+[02:43:12] [Server thread/INFO]: [WorldGuard] (panda) TNT ignition is PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (panda) Lighters are PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (panda) Lava fire is blocked.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (panda) Fire spread is UNRESTRICTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'panda'
+[02:43:12] [Server thread/INFO]: [SWM] World panda loaded in 7ms.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world town4v4v4v4.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] World town4v4v4v4 loaded in 18ms.
+[02:43:12] [Server thread/INFO]: -------- World Settings For [town4v4v4v4] --------
+[02:43:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:12] [Server thread/INFO]: Structure Info Saving: true
+[02:43:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:12] [Server thread/INFO]: View Distance: 10
+[02:43:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:12] [Server thread/INFO]: [SWM] Loading world town4v4v4v4
+[02:43:12] [Server thread/INFO]: [BedWars1058] Loading arena: arabic
+[02:43:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: town4v4v4v4
+[02:43:12] [Server thread/INFO]: [BedWars1058] Load done: town4v4v4v4
+[02:43:12] [Server thread/INFO]: [WorldGuard] (town4v4v4v4) TNT ignition is PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (town4v4v4v4) Lighters are PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (town4v4v4v4) Lava fire is blocked.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (town4v4v4v4) Fire spread is UNRESTRICTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'town4v4v4v4'
+[02:43:12] [Server thread/INFO]: [SWM] World town4v4v4v4 loaded in 6ms.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world arabic.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] World arabic loaded in 23ms.
+[02:43:12] [Server thread/INFO]: -------- World Settings For [arabic] --------
+[02:43:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:12] [Server thread/INFO]: Structure Info Saving: true
+[02:43:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:12] [Server thread/INFO]: View Distance: 10
+[02:43:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:12] [Server thread/INFO]: [SWM] Loading world arabic
+[02:43:12] [Server thread/INFO]: [BedWars1058] Loading arena: desertsolo
+[02:43:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: arabic
+[02:43:12] [Server thread/INFO]: [BedWars1058] Load done: arabic
+[02:43:12] [Server thread/INFO]: [WorldGuard] (arabic) TNT ignition is PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (arabic) Lighters are PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (arabic) Lava fire is blocked.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (arabic) Fire spread is UNRESTRICTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'arabic'
+[02:43:12] [Server thread/INFO]: [SWM] World arabic loaded in 13ms.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world desertsolo.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] World desertsolo loaded in 10ms.
+[02:43:12] [Server thread/INFO]: -------- World Settings For [desertsolo] --------
+[02:43:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:12] [Server thread/INFO]: Structure Info Saving: true
+[02:43:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:12] [Server thread/INFO]: View Distance: 10
+[02:43:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:12] [Server thread/INFO]: [SWM] Loading world desertsolo
+[02:43:12] [Server thread/INFO]: [BedWars1058] Loading arena: lighthouse
+[02:43:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: desertsolo
+[02:43:12] [Server thread/INFO]: [BedWars1058] Load done: desertsolo
+[02:43:12] [Server thread/INFO]: [WorldGuard] (desertsolo) TNT ignition is PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (desertsolo) Lighters are PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (desertsolo) Lava fire is blocked.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (desertsolo) Fire spread is UNRESTRICTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'desertsolo'
+[02:43:12] [Server thread/INFO]: [SWM] World desertsolo loaded in 7ms.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world lighthouse.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] World lighthouse loaded in 13ms.
+[02:43:12] [Server thread/INFO]: -------- World Settings For [lighthouse] --------
+[02:43:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:12] [Server thread/INFO]: Structure Info Saving: true
+[02:43:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:12] [Server thread/INFO]: View Distance: 10
+[02:43:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:12] [Server thread/INFO]: [SWM] Loading world lighthouse
+[02:43:12] [Server thread/INFO]: [BedWars1058] Loading arena: plants4v4v4v4
+[02:43:12] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: lighthouse
+[02:43:12] [Server thread/INFO]: [BedWars1058] Load done: lighthouse
+[02:43:12] [Server thread/INFO]: [WorldGuard] (lighthouse) TNT ignition is PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (lighthouse) Lighters are PERMITTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (lighthouse) Lava fire is blocked.
+[02:43:12] [Server thread/INFO]: [WorldGuard] (lighthouse) Fire spread is UNRESTRICTED.
+[02:43:12] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'lighthouse'
+[02:43:12] [Server thread/INFO]: [SWM] World lighthouse loaded in 5ms.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world plants4v4v4v4.
+[02:43:12] [Craft Scheduler Thread - 9/INFO]: [SWM] World plants4v4v4v4 loaded in 10ms.
+[02:43:12] [Server thread/INFO]: -------- World Settings For [plants4v4v4v4] --------
+[02:43:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:12] [Server thread/INFO]: Structure Info Saving: true
+[02:43:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:12] [Server thread/INFO]: View Distance: 10
+[02:43:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/INFO]: [SWM] Loading world plants4v4v4v4
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: giftdouble
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: plants4v4v4v4
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: plants4v4v4v4
+[02:43:13] [Server thread/INFO]: [WorldGuard] (plants4v4v4v4) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (plants4v4v4v4) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (plants4v4v4v4) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (plants4v4v4v4) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'plants4v4v4v4'
+[02:43:13] [Server thread/INFO]: [SWM] World plants4v4v4v4 loaded in 8ms.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world giftdouble.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] World giftdouble loaded in 7ms.
+[02:43:13] [Server thread/INFO]: -------- World Settings For [giftdouble] --------
+[02:43:13] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:13] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:13] [Server thread/INFO]: Structure Info Saving: true
+[02:43:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:13] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:13] [Server thread/INFO]: View Distance: 10
+[02:43:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/INFO]: [SWM] Loading world giftdouble
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: christmas3v3v3v3
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: giftdouble
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: giftdouble
+[02:43:13] [Server thread/INFO]: [WorldGuard] (giftdouble) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (giftdouble) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (giftdouble) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (giftdouble) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'giftdouble'
+[02:43:13] [Server thread/INFO]: [SWM] World giftdouble loaded in 5ms.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world christmas3v3v3v3.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] World christmas3v3v3v3 loaded in 16ms.
+[02:43:13] [Server thread/INFO]: -------- World Settings For [christmas3v3v3v3] --------
+[02:43:13] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:13] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:13] [Server thread/INFO]: Structure Info Saving: true
+[02:43:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:13] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:13] [Server thread/INFO]: View Distance: 10
+[02:43:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/INFO]: [SWM] Loading world christmas3v3v3v3
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: valleysolo
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: christmas3v3v3v3
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: christmas3v3v3v3
+[02:43:13] [Server thread/INFO]: [WorldGuard] (christmas3v3v3v3) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (christmas3v3v3v3) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (christmas3v3v3v3) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (christmas3v3v3v3) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'christmas3v3v3v3'
+[02:43:13] [Server thread/INFO]: [SWM] World christmas3v3v3v3 loaded in 12ms.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world valleysolo.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] World valleysolo loaded in 5ms.
+[02:43:13] [Server thread/INFO]: -------- World Settings For [valleysolo] --------
+[02:43:13] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:13] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:13] [Server thread/INFO]: Structure Info Saving: true
+[02:43:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:13] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:13] [Server thread/INFO]: View Distance: 10
+[02:43:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/INFO]: [SWM] Loading world valleysolo
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: mario1v1
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: valleysolo
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: valleysolo
+[02:43:13] [Server thread/INFO]: [WorldGuard] (valleysolo) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (valleysolo) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (valleysolo) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (valleysolo) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'valleysolo'
+[02:43:13] [Server thread/INFO]: [SWM] World valleysolo loaded in 5ms.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] Loading world mario1v1.
+[02:43:13] [Craft Scheduler Thread - 9/INFO]: [SWM] World mario1v1 loaded in 2ms.
+[02:43:13] [Server thread/INFO]: -------- World Settings For [mario1v1] --------
+[02:43:13] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:13] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:13] [Server thread/INFO]: Structure Info Saving: true
+[02:43:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:13] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:13] [Server thread/INFO]: View Distance: 10
+[02:43:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/INFO]: [SWM] Loading world mario1v1
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: pandasolo
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: mario1v1
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: mario1v1
+[02:43:13] [Server thread/INFO]: [WorldGuard] (mario1v1) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (mario1v1) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (mario1v1) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (mario1v1) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'mario1v1'
+[02:43:13] [Server thread/INFO]: [SWM] World mario1v1 loaded in 5ms.
+[02:43:13] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world pandasolo.
+[02:43:13] [Craft Scheduler Thread - 2/INFO]: [SWM] World pandasolo loaded in 9ms.
+[02:43:13] [Server thread/INFO]: -------- World Settings For [pandasolo] --------
+[02:43:13] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:13] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:13] [Server thread/INFO]: Structure Info Saving: true
+[02:43:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:13] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:13] [Server thread/INFO]: View Distance: 10
+[02:43:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/INFO]: [SWM] Loading world pandasolo
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: desert
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: pandasolo
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: pandasolo
+[02:43:13] [Server thread/INFO]: [WorldGuard] (pandasolo) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (pandasolo) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (pandasolo) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (pandasolo) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'pandasolo'
+[02:43:13] [Server thread/INFO]: [SWM] World pandasolo loaded in 8ms.
+[02:43:13] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world desert.
+[02:43:13] [Craft Scheduler Thread - 2/INFO]: [SWM] World desert loaded in 46ms.
+[02:43:13] [Server thread/INFO]: -------- World Settings For [desert] --------
+[02:43:13] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:13] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:13] [Server thread/INFO]: Structure Info Saving: true
+[02:43:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:13] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:13] [Server thread/INFO]: View Distance: 10
+[02:43:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:13] [Server thread/WARN]: Skipping Entity with id minecraft:itemframe
+[02:43:13] [Server thread/WARN]: Skipping Entity with id minecraft:itemframe
+[02:43:13] [Server thread/WARN]: Skipping Entity with id minecraft:itemframe
+[02:43:13] [Server thread/WARN]: Skipping Entity with id minecraft:itemframe
+[02:43:13] [Server thread/WARN]: Skipping Entity with id minecraft:itemframe
+[02:43:13] [Server thread/INFO]: [SWM] Loading world desert
+[02:43:13] [Server thread/INFO]: [BedWars1058] Loading arena: radio
+[02:43:13] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: desert
+[02:43:13] [Server thread/INFO]: [BedWars1058] Load done: desert
+[02:43:13] [Server thread/INFO]: [WorldGuard] (desert) TNT ignition is PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (desert) Lighters are PERMITTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (desert) Lava fire is blocked.
+[02:43:13] [Server thread/INFO]: [WorldGuard] (desert) Fire spread is UNRESTRICTED.
+[02:43:13] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'desert'
+[02:43:13] [Server thread/INFO]: [SWM] World desert loaded in 12ms.
+[02:43:13] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world radio.
+[02:43:13] [Craft Scheduler Thread - 2/INFO]: [SWM] World radio loaded in 9ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [radio] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world radio
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: glacierdoubles
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: radio
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: radio
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'radio'
+[02:43:14] [Server thread/INFO]: [SWM] World radio loaded in 38ms.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world glacierdoubles.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] World glacierdoubles loaded in 9ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [glacierdoubles] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world glacierdoubles
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: city3v3v3v3
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: glacierdoubles
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: glacierdoubles
+[02:43:14] [Server thread/INFO]: [WorldGuard] (glacierdoubles) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (glacierdoubles) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (glacierdoubles) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (glacierdoubles) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'glacierdoubles'
+[02:43:14] [Server thread/INFO]: [SWM] World glacierdoubles loaded in 11ms.
+[02:43:14] [Craft Scheduler Thread - 4/INFO]: [SWM] Loading world city3v3v3v3.
+[02:43:14] [Craft Scheduler Thread - 4/INFO]: [SWM] World city3v3v3v3 loaded in 4ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [city3v3v3v3] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world city3v3v3v3
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: sea
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: city3v3v3v3
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: city3v3v3v3
+[02:43:14] [Server thread/INFO]: [WorldGuard] (city3v3v3v3) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (city3v3v3v3) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (city3v3v3v3) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (city3v3v3v3) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'city3v3v3v3'
+[02:43:14] [Server thread/INFO]: [SWM] World city3v3v3v3 loaded in 4ms.
+[02:43:14] [Craft Scheduler Thread - 4/INFO]: [SWM] Loading world sea.
+[02:43:14] [Craft Scheduler Thread - 4/INFO]: [SWM] World sea loaded in 3ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [sea] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world sea
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: radio3v3v3v3
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: sea
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: sea
+[02:43:14] [Server thread/INFO]: [WorldGuard] (sea) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (sea) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (sea) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (sea) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'sea'
+[02:43:14] [Server thread/INFO]: [SWM] World sea loaded in 7ms.
+[02:43:14] [Craft Scheduler Thread - 12/INFO]: [SWM] Loading world radio3v3v3v3.
+[02:43:14] [Craft Scheduler Thread - 12/INFO]: [SWM] World radio3v3v3v3 loaded in 8ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [radio3v3v3v3] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world radio3v3v3v3
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: martian
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: radio3v3v3v3
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: radio3v3v3v3
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio3v3v3v3) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio3v3v3v3) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio3v3v3v3) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (radio3v3v3v3) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'radio3v3v3v3'
+[02:43:14] [Server thread/INFO]: [SWM] World radio3v3v3v3 loaded in 11ms.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world martian.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] World martian loaded in 10ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [martian] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world martian
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: laptop4v4v4v4
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: martian
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: martian
+[02:43:14] [Server thread/INFO]: [WorldGuard] (martian) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (martian) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (martian) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (martian) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'martian'
+[02:43:14] [Server thread/INFO]: [SWM] World martian loaded in 15ms.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world laptop4v4v4v4.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] World laptop4v4v4v4 loaded in 2ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [laptop4v4v4v4] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world laptop4v4v4v4
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: submarine4v4v4v4
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: laptop4v4v4v4
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: laptop4v4v4v4
+[02:43:14] [Server thread/INFO]: [WorldGuard] (laptop4v4v4v4) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (laptop4v4v4v4) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (laptop4v4v4v4) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (laptop4v4v4v4) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'laptop4v4v4v4'
+[02:43:14] [Server thread/INFO]: [SWM] World laptop4v4v4v4 loaded in 22ms.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world submarine4v4v4v4.
+[02:43:14] [Craft Scheduler Thread - 2/INFO]: [SWM] World submarine4v4v4v4 loaded in 3ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [submarine4v4v4v4] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:14] [Server thread/INFO]: [SWM] Loading world submarine4v4v4v4
+[02:43:14] [Server thread/INFO]: [BedWars1058] Loading arena: arabic3v3v3v3
+[02:43:14] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: submarine4v4v4v4
+[02:43:14] [Server thread/INFO]: [BedWars1058] Load done: submarine4v4v4v4
+[02:43:14] [Server thread/INFO]: [WorldGuard] (submarine4v4v4v4) TNT ignition is PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (submarine4v4v4v4) Lighters are PERMITTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (submarine4v4v4v4) Lava fire is blocked.
+[02:43:14] [Server thread/INFO]: [WorldGuard] (submarine4v4v4v4) Fire spread is UNRESTRICTED.
+[02:43:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'submarine4v4v4v4'
+[02:43:14] [Server thread/INFO]: [SWM] World submarine4v4v4v4 loaded in 4ms.
+[02:43:14] [Craft Scheduler Thread - 4/INFO]: [SWM] Loading world arabic3v3v3v3.
+[02:43:14] [Craft Scheduler Thread - 4/INFO]: [SWM] World arabic3v3v3v3 loaded in 9ms.
+[02:43:14] [Server thread/INFO]: -------- World Settings For [arabic3v3v3v3] --------
+[02:43:14] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:14] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:14] [Server thread/INFO]: Structure Info Saving: true
+[02:43:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:14] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:14] [Server thread/INFO]: View Distance: 10
+[02:43:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world arabic3v3v3v3
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: town
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: arabic3v3v3v3
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: arabic3v3v3v3
+[02:43:15] [Server thread/INFO]: [WorldGuard] (arabic3v3v3v3) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (arabic3v3v3v3) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (arabic3v3v3v3) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (arabic3v3v3v3) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'arabic3v3v3v3'
+[02:43:15] [Server thread/INFO]: [SWM] World arabic3v3v3v3 loaded in 4ms.
+[02:43:15] [Craft Scheduler Thread - 4/INFO]: [SWM] Loading world town.
+[02:43:15] [Craft Scheduler Thread - 4/INFO]: [SWM] World town loaded in 13ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [town] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world town
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: laptop
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: town
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: town
+[02:43:15] [Server thread/INFO]: [WorldGuard] (town) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (town) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (town) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (town) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'town'
+[02:43:15] [Server thread/INFO]: [SWM] World town loaded in 12ms.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world laptop.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] World laptop loaded in 3ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [laptop] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world laptop
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: gift
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: laptop
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: laptop
+[02:43:15] [Server thread/INFO]: [WorldGuard] (laptop) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (laptop) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (laptop) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (laptop) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'laptop'
+[02:43:15] [Server thread/INFO]: [SWM] World laptop loaded in 4ms.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world gift.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] World gift loaded in 5ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [gift] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world gift
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: thepandas4v4
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: gift
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: gift
+[02:43:15] [Server thread/INFO]: [WorldGuard] (gift) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (gift) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (gift) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (gift) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'gift'
+[02:43:15] [Server thread/INFO]: [SWM] World gift loaded in 6ms.
+[02:43:15] [Server thread/INFO]: [BedWars1058] This server is running in MULTIARENA with auto-scale false
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world thepandas4v4.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] World thepandas4v4 loaded in 13ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [thepandas4v4] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world thepandas4v4
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: seasolo
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: thepandas4v4
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: thepandas4v4
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas4v4) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas4v4) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas4v4) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas4v4) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'thepandas4v4'
+[02:43:15] [Server thread/INFO]: [SWM] World thepandas4v4 loaded in 5ms.
+[02:43:15] [Craft Scheduler Thread - 1/INFO]: [SWM] Loading world seasolo.
+[02:43:15] [Craft Scheduler Thread - 1/INFO]: [SWM] World seasolo loaded in 24ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [seasolo] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world seasolo
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: valley
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: seasolo
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: seasolo
+[02:43:15] [Server thread/INFO]: [WorldGuard] (seasolo) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (seasolo) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (seasolo) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (seasolo) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'seasolo'
+[02:43:15] [Server thread/INFO]: [SWM] World seasolo loaded in 12ms.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world valley.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] World valley loaded in 11ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [valley] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world valley
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: thepandas
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: valley
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: valley
+[02:43:15] [Server thread/INFO]: [WorldGuard] (valley) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (valley) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (valley) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (valley) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'valley'
+[02:43:15] [Server thread/INFO]: [SWM] World valley loaded in 9ms.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world thepandas.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] World thepandas loaded in 11ms.
+[02:43:15] [Server thread/INFO]: -------- World Settings For [thepandas] --------
+[02:43:15] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:15] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:15] [Server thread/INFO]: Structure Info Saving: true
+[02:43:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:15] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:15] [Server thread/INFO]: View Distance: 10
+[02:43:15] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:15] [Server thread/INFO]: [SWM] Loading world thepandas
+[02:43:15] [Server thread/INFO]: [BedWars1058] Loading arena: paris
+[02:43:15] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: thepandas
+[02:43:15] [Server thread/INFO]: [BedWars1058] Load done: thepandas
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas) TNT ignition is PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas) Lighters are PERMITTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas) Lava fire is blocked.
+[02:43:15] [Server thread/INFO]: [WorldGuard] (thepandas) Fire spread is UNRESTRICTED.
+[02:43:15] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'thepandas'
+[02:43:15] [Server thread/INFO]: [SWM] World thepandas loaded in 22ms.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] Loading world paris.
+[02:43:15] [Craft Scheduler Thread - 2/INFO]: [SWM] World paris loaded in 9ms.
+[02:43:16] [Server thread/INFO]: -------- World Settings For [paris] --------
+[02:43:16] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:16] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:16] [Server thread/INFO]: Structure Info Saving: true
+[02:43:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:16] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:16] [Server thread/INFO]: View Distance: 10
+[02:43:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:16] [Server thread/INFO]: [SWM] Loading world paris
+[02:43:16] [Server thread/INFO]: [BedWars1058] Loading arena: christmas
+[02:43:16] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: paris
+[02:43:16] [Server thread/INFO]: [BedWars1058] Load done: paris
+[02:43:16] [Server thread/INFO]: [WorldGuard] (paris) TNT ignition is PERMITTED.
+[02:43:16] [Server thread/INFO]: [WorldGuard] (paris) Lighters are PERMITTED.
+[02:43:16] [Server thread/INFO]: [WorldGuard] (paris) Lava fire is blocked.
+[02:43:16] [Server thread/INFO]: [WorldGuard] (paris) Fire spread is UNRESTRICTED.
+[02:43:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'paris'
+[02:43:16] [Server thread/INFO]: [SWM] World paris loaded in 5ms.
+[02:43:16] [Craft Scheduler Thread - 6/INFO]: [SWM] Loading world christmas.
+[02:43:16] [Craft Scheduler Thread - 6/INFO]: [SWM] World christmas loaded in 21ms.
+[02:43:16] [Server thread/INFO]: -------- World Settings For [christmas] --------
+[02:43:16] [Server thread/INFO]: Mob Spawn Range: 4
+[02:43:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:43:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:43:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:43:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:43:16] [Server thread/INFO]: Random Lighting Updates: false
+[02:43:16] [Server thread/INFO]: Structure Info Saving: true
+[02:43:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:43:16] [Server thread/INFO]: Max TNT Explosions: 100
+[02:43:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:43:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:43:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:43:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:43:16] [Server thread/INFO]: View Distance: 10
+[02:43:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:43:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:43:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:43:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:43:16] [Server thread/INFO]: [SWM] Loading world christmas
+[02:43:16] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: christmas
+[02:43:16] [Server thread/INFO]: [BedWars1058] Load done: christmas
+[02:43:16] [Server thread/INFO]: [WorldGuard] (christmas) TNT ignition is PERMITTED.
+[02:43:16] [Server thread/INFO]: [WorldGuard] (christmas) Lighters are PERMITTED.
+[02:43:16] [Server thread/INFO]: [WorldGuard] (christmas) Lava fire is blocked.
+[02:43:16] [Server thread/INFO]: [WorldGuard] (christmas) Fire spread is UNRESTRICTED.
+[02:43:16] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'christmas'
+[02:43:16] [Server thread/INFO]: [SWM] World christmas loaded in 4ms.
+[02:43:46] [User Authenticator #1/INFO]: UUID of player auravirus is 657ced2e-fa79-3ce7-b924-738d3a0d22e8
+[02:43:46] [Server thread/INFO]: auravirus[/[0:0:0:0:0:0:0:1%0]:56556] logged in with entity id 417 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:43:46] [Craft Scheduler Thread - 2/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:44:04] [Server thread/INFO]: auravirus issued server command: /game
+[02:44:20] [AJLBFETCH-2-169/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:44:40] [Server thread/INFO]: auravirus issued server command: /lobbyselector
+[02:44:43] [Server thread/INFO]: auravirus issued server command: /game
+[02:45:20] [AJLBFETCH-2-543/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:45:47] [Server thread/INFO]: auravirus lost connection: Disconnected
+[02:47:22] [User Authenticator #2/INFO]: UUID of player auravirus is 657ced2e-fa79-3ce7-b924-738d3a0d22e8
+[02:47:23] [Server thread/INFO]: auravirus[/[0:0:0:0:0:0:0:1%0]:35408] logged in with entity id 428 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:47:23] [Craft Scheduler Thread - 12/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:47:33] [Server thread/INFO]: Opped auravirus
+[02:47:41] [Server thread/INFO]: auravirus issued server command: /bw
+[02:48:00] [Server thread/INFO]: auravirus issued server command: /game
+[02:48:06] [Server thread/INFO]: auravirus issued server command: /game
+[02:48:13] [Server thread/INFO]: auravirus issued server command: /profile
+[02:48:17] [Server thread/INFO]: auravirus issued server command: /bedmenu
+[02:48:20] [AJLBFETCH-2-1038/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:48:38] [Server thread/INFO]: auravirus issued server command: /gamemode c
+[02:48:38] [Server thread/INFO]: [auravirus: Set own game mode to Creative Mode]
+[02:49:20] [AJLBFETCH-2-1260/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:49:35] [Server thread/INFO]: auravirus issued server command: /bw help
+[02:49:38] [Server thread/INFO]: auravirus issued server command: /bw
+[02:49:50] [Server thread/INFO]: auravirus issued server command: /bw cmds
+[02:49:56] [Server thread/INFO]: auravirus issued server command: /bw start
+[02:50:05] [Server thread/INFO]: auravirus issued server command: /bw join
+[02:50:14] [Server thread/INFO]: auravirus issued server command: /bw join huh
+[02:50:20] [AJLBFETCH-2-1572/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:50:22] [Server thread/INFO]: auravirus issued server command: /bw play
+[02:50:24] [Server thread/INFO]: auravirus issued server command: /bw
+[02:50:39] [Server thread/INFO]: auravirus issued server command: /bw compass
+[02:50:44] [Server thread/INFO]: auravirus issued server command: /bw arenaList
+[02:50:44] [Server thread/INFO]: auravirus issued server command: /bw arenaList
+[02:50:46] [Server thread/INFO]: auravirus issued server command: /bw arenaList
+[02:50:54] [Server thread/INFO]: auravirus issued server command: /bw arenaList
+[02:51:01] [Server thread/INFO]: auravirus issued server command: /bw join
+[02:51:08] [Server thread/INFO]: auravirus issued server command: /bw join city
+[02:51:20] [AJLBFETCH-2-1828/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:51:39] [User Authenticator #3/INFO]: UUID of player 67mod3 is c97672bc-c70f-39b6-abf3-80e1f4cba033
+[02:51:39] [Server thread/INFO]: 67mod3[/[0:0:0:0:0:0:0:1%0]:51720] logged in with entity id 429 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:51:39] [Craft Scheduler Thread - 40/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:51:47] [Server thread/INFO]: 67mod3 issued server command: /bw join party
+[02:52:04] [Server thread/INFO]: 67mod3 issued server command: /bw join city
+[02:52:20] [AJLBFETCH-2-1926/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:52:20] [AJLBFETCH-2-1928/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:52:25] [Server thread/INFO]: auravirus issued server command: /bw
+[02:52:30] [Server thread/INFO]: auravirus issued server command: /bw start
+[02:52:40] [Server thread/INFO]: auravirus issued server command: /bw start
+[02:52:49] [Server thread/INFO]: auravirus issued server command: /gamemode c
+[02:52:49] [Server thread/INFO]: [auravirus: Set own game mode to Creative Mode]
+[02:53:20] [AJLBFETCH-2-1932/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:53:20] [AJLBFETCH-2-1934/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:53:29] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:53:31] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:53:31] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[02:53:59] [Server thread/INFO]: 67mod3 lost connection: Disconnected
+[02:54:11] [User Authenticator #4/INFO]: UUID of player 67mod3 is c97672bc-c70f-39b6-abf3-80e1f4cba033
+[02:54:11] [Server thread/INFO]: 67mod3[/[0:0:0:0:0:0:0:1%0]:45950] logged in with entity id 430 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:54:11] [Craft Scheduler Thread - 57/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:54:17] [Server thread/INFO]: 67mod3 issued server command: /bw join city
+[02:54:20] [AJLBFETCH-2-1972/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:54:20] [AJLBFETCH-2-1973/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:54:20] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:54:22] [Server thread/ERROR]: [BedWars1058-TeamSelector] ANVIL_BREAK it't not a valid sound for your server version!
+[02:54:24] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:54:26] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:54:26] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[02:54:32] [Server thread/INFO]: auravirus issued server command: /bw start
+[02:55:20] [AJLBFETCH-2-1978/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:55:20] [AJLBFETCH-2-1979/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:56:20] [AJLBFETCH-2-1984/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:56:20] [AJLBFETCH-2-1985/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:56:27] [Server thread/INFO]: 67mod3 lost connection: Timed out
+[02:56:31] [Server thread/INFO]: auravirus lost connection: Timed out
+[02:56:31] [Server thread/INFO]: The admin auravirus leave the server!
+[02:58:48] [User Authenticator #5/INFO]: UUID of player auravirus is 657ced2e-fa79-3ce7-b924-738d3a0d22e8
+[02:58:48] [Server thread/INFO]: auravirus[/[0:0:0:0:0:0:0:1%0]:38078] logged in with entity id 431 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:58:48] [Craft Scheduler Thread - 59/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:58:49] [Craft Scheduler Thread - 80/INFO]: [OldCombatMechanics] An update for OldCombatMechanics to version 2.2.0 is available!
+[02:58:49] [Craft Scheduler Thread - 80/INFO]: [OldCombatMechanics] Click here to download it: https://www.spigotmc.org/resources/oldcombatmechanics.19510/update?update=615881
+[02:58:53] [User Authenticator #5/INFO]: UUID of player 67mod3 is c97672bc-c70f-39b6-abf3-80e1f4cba033
+[02:58:53] [Server thread/INFO]: 67mod3[/[0:0:0:0:0:0:0:1%0]:42594] logged in with entity id 437 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:58:53] [Craft Scheduler Thread - 80/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:59:19] [User Authenticator #5/INFO]: UUID of player 67mod1 is dd7cc99d-4f70-3897-be31-ac19657063d2
+[02:59:19] [Server thread/INFO]: 67mod1[/[0:0:0:0:0:0:0:1%0]:45884] logged in with entity id 438 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:59:19] [Craft Scheduler Thread - 77/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod1) Skipping.
+[02:59:20] [AJLBFETCH-2-2184/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[02:59:20] [AJLBFETCH-2-2185/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[02:59:20] [AJLBFETCH-2-2187/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod1) Skipping.
+[02:59:26] [User Authenticator #5/INFO]: UUID of player 67mod2 is 20475022-0edf-33b0-a239-b870de5d97b4
+[02:59:26] [Server thread/INFO]: 67mod2[/[0:0:0:0:0:0:0:1%0]:54978] logged in with entity id 439 at ([world]1.4458547818276226, 75.0, -1.5801136273027274)
+[02:59:26] [Craft Scheduler Thread - 84/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod2) Skipping.
+[02:59:30] [Server thread/INFO]: auravirus issued server command: /bw join city
+[02:59:37] [Server thread/INFO]: 67mod3 issued server command: /bw join city
+[02:59:43] [Server thread/INFO]: 67mod1 issued server command: /bw join city
+[02:59:48] [Server thread/INFO]: 67mod2 issued server command: /bw join city
+[02:59:52] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:59:54] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[02:59:54] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[02:59:58] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:00:00] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:00:00] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[03:00:16] [Server thread/INFO]: 67mod3 issued server command: /bw join city
+[03:00:19] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:00:20] [AJLBFETCH-2-2385/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[03:00:20] [AJLBFETCH-2-2389/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[03:00:20] [AJLBFETCH-2-2388/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod2) Skipping.
+[03:00:20] [AJLBFETCH-2-2387/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod1) Skipping.
+[03:00:21] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:00:21] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[03:00:26] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:00:27] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:00:27] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[03:00:31] [Server thread/INFO]: auravirus issued server command: /bw start
+[03:01:20] [AJLBFETCH-2-2482/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[03:01:20] [AJLBFETCH-2-2481/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[03:01:20] [AJLBFETCH-2-2478/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod1) Skipping.
+[03:01:21] [AJLBFETCH-2-2480/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod2) Skipping.
+[03:01:25] [Server thread/INFO]: auravirus issued server command: /bw arenalist
+[03:01:44] [Server thread/INFO]: auravirus issued server command: /bw arenalist 2
+[03:01:56] [Server thread/INFO]: auravirus issued server command: /bw join mario1v1
+[03:02:08] [Server thread/INFO]: 67mod3 issued server command: /bw join mario1v1
+[03:02:13] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:02:14] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:02:14] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[03:02:18] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:02:19] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_OPEN it't not a valid sound for your server version!
+[03:02:19] [Server thread/ERROR]: [BedWars1058-TeamSelector] CHEST_CLOSE it't not a valid sound for your server version!
+[03:02:20] [AJLBFETCH-2-2740/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[03:02:20] [AJLBFETCH-2-2739/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod2) Skipping.
+[03:02:20] [AJLBFETCH-2-2738/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod1) Skipping.
+[03:02:21] [AJLBFETCH-2-2743/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[03:02:21] [Server thread/WARN]: 67mod1 was kicked due to keepalive timeout!
+[03:02:21] [Server thread/INFO]: 67mod1 lost connection: Timed out
+[03:02:21] [Server thread/WARN]: handleDisconnection() called twice
+[03:02:22] [Server thread/WARN]: 67mod2 was kicked due to keepalive timeout!
+[03:02:22] [Server thread/INFO]: 67mod2 lost connection: Timed out
+[03:02:22] [Server thread/WARN]: handleDisconnection() called twice
+[03:02:48] [Server thread/WARN]: 67mod3 moved too quickly! 2.9756102943213874,-61.0,81.88082759347566
+[03:02:48] [Server thread/WARN]: auravirus moved too quickly! 1.1940633120014317,-61.0,-78.97741035328083
+[03:03:21] [AJLBFETCH-2-2753/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for auravirus) Skipping.
+[03:03:21] [AJLBFETCH-2-2755/WARN]: [ajLeaderboards] Extra statistic_player_kills returned itself! (for 67mod3) Skipping.
+[03:03:49] [Server thread/INFO]: 67mod3 lost connection: Timed out
+[03:04:03] [Server thread/INFO]: auravirus lost connection: Disconnected
+[03:04:03] [Server thread/INFO]: The admin auravirus leave the server!
+[03:04:07] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:07] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:07] [Server thread/WARN]: [Multiverse-Core] /mv import mario1v1 NORMAL
+[03:04:11] [Server thread/INFO]: [BedWars1058] Arena mario1v1 was added to the enable queue.
+[03:04:11] [Server thread/INFO]: [BedWars1058] Loading arena: mario1v1
+[03:04:11] [Craft Scheduler Thread - 92/INFO]: [SWM] Loading world mario1v1.
+[03:04:11] [Craft Scheduler Thread - 92/INFO]: [SWM] World mario1v1 loaded in 20ms.
+[03:04:11] [Server thread/INFO]: -------- World Settings For [mario1v1] --------
+[03:04:11] [Server thread/INFO]: Mob Spawn Range: 4
+[03:04:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[03:04:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[03:04:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[03:04:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[03:04:11] [Server thread/INFO]: Random Lighting Updates: false
+[03:04:11] [Server thread/INFO]: Structure Info Saving: true
+[03:04:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[03:04:11] [Server thread/INFO]: Max TNT Explosions: 100
+[03:04:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[03:04:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[03:04:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[03:04:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[03:04:11] [Server thread/INFO]: View Distance: 10
+[03:04:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[03:04:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[03:04:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[03:04:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[03:04:11] [Server thread/INFO]: [SWM] Loading world mario1v1
+[03:04:11] [Server thread/WARN]: [BedWars1058] Using TeamSelectorAssigner team assigner on arena: mario1v1
+[03:04:11] [Server thread/INFO]: [BedWars1058] Load done: mario1v1
+[03:04:11] [Server thread/INFO]: [SWM] World mario1v1 loaded in 16ms.
+[03:04:23] [Server thread/INFO]: Stopping server
+[03:04:23] [Server thread/INFO]: [BedWars1058-ArenaSetup] Disabling BedWars1058-ArenaSetup v2.0
+[03:04:23] [Server thread/INFO]: [BedWars1058-RewardSummary] Disabling BedWars1058-RewardSummary v1.0.4
+[03:04:23] [Server thread/INFO]: BedWars1058 Reward Summary addon has been successfully disabled.
+[03:04:23] [Server thread/INFO]: [BedWars1058-Compass] Disabling BedWars1058-Compass v1.4.3
+[03:04:23] [Server thread/INFO]: [BedWars1058-MapSelector] Disabling BedWars1058-MapSelector v1.3.1
+[03:04:23] [Server thread/INFO]: [BedWars1058-MapSelector] Closed the database connection
+[03:04:23] [Server thread/INFO]: [BedWars1058-MapSelector] BedWars1058-MapSelector plugin by itz_leoo has been successfully disabled.
+[03:04:23] [Server thread/INFO]: [BedWars1058-PlayAgain] Disabling BedWars1058-PlayAgain v2.0.2
+[03:04:23] [Server thread/INFO]: [BedWars1058-TeamSelector] Disabling BedWars1058-TeamSelector v0.7
+[03:04:23] [Server thread/INFO]: [BedWars1058-AntiDrop] Disabling BedWars1058-AntiDrop v1.2.1
+[03:04:23] [Server thread/INFO]: [BedWars1058-GenSplit] Disabling BedWars1058-GenSplit v0.3
+[03:04:23] [Server thread/INFO]: [BedWars1058] Disabling BedWars1058 v23.2.1
+[03:04:23] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion bw1058plus
+[03:04:23] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin BedWars1058 was disabled.
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: party
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import party NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: plants
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import plants NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: submarine
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import submarine NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: city
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import city NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthousesolo
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import lighthousesolo NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: martian4v4v4v4
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import martian4v4v4v4 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: party3v3v3v3
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import party3v3v3v3 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: paris3v3v3v3
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import paris3v3v3v3 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: panda
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import panda NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: town4v4v4v4
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import town4v4v4v4 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: arabic
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import arabic NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: desertsolo
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import desertsolo NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: lighthouse
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import lighthouse NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: plants4v4v4v4
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import plants4v4v4v4 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: giftdouble
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import giftdouble NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: christmas3v3v3v3
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import christmas3v3v3v3 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: valleysolo
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import valleysolo NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: pandasolo
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import pandasolo NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: desert
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import desert NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: radio
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import radio NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: glacierdoubles
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import glacierdoubles NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: city3v3v3v3
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import city3v3v3v3 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: sea
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import sea NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: radio3v3v3v3
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import radio3v3v3v3 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: martian
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import martian NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: laptop4v4v4v4
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import laptop4v4v4v4 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: submarine4v4v4v4
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import submarine4v4v4v4 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: arabic3v3v3v3
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import arabic3v3v3v3 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: town
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import town NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: laptop
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import laptop NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: gift
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import gift NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: thepandas4v4
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import thepandas4v4 NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: seasolo
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import seasolo NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: valley
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import valley NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: thepandas
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import thepandas NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: paris
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import paris NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: christmas
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import christmas NORMAL
+[03:04:23] [Server thread/WARN]: [BedWars1058] Disabling arena: mario1v1
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] Hmm Multiverse does not know about this world but it's loaded in memory.
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] To let Multiverse know about it, use:
+[03:04:23] [Server thread/WARN]: [Multiverse-Core] /mv import mario1v1 NORMAL
+[03:04:23] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.13.7-Release
+[03:04:23] [Server thread/INFO]: [ajLeaderboards] Disabling ajLeaderboards v2.7.0
+[03:04:23] [pool-142-thread-1/INFO]: [ajLeaderboards] Shutting down cache method..
+[03:04:24] [pool-142-thread-1/INFO]: [ajLeaderboards] Cache method shut down
+[03:04:24] [Server thread/INFO]: [ajLeaderboards] Killing remaining workers
+[03:04:24] [Server thread/INFO]: [ajLeaderboards] Remaining workers killed
+[03:04:24] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.7.0 disabled.
+[03:04:24] [Server thread/INFO]: [SuperLobby] Disabling SuperLobby v4.6.0
+[03:04:24] [Server thread/INFO]: [Economy] Disabling Economy v2.3
+[03:04:24] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.9.3
+[03:04:24] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[03:04:24] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.3
+[03:04:24] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[03:04:24] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[03:04:24] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[03:04:24] [Server thread/INFO]: [ANM] Disabling AdvancedNMotd v9.2.0
+[03:04:24] [Server thread/INFO]: AdvancedNMotd is disabled!
+[03:04:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.88
+[03:04:24] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion luckperms
+[03:04:24] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin LuckPerms was disabled.
+[03:04:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:04:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:04:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:04:24] [Server thread/INFO]: [EZColors] Disabling EZColors v2.2.3
+[03:04:24] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.3
+[03:04:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[03:04:24] [Server thread/INFO]: [EaglerXRewind-1.5] Disabling EaglercraftXRewind-1-5 v1.0.2
+[03:04:24] [Server thread/INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been unregistered
+[03:04:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[03:04:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[03:04:24] [Server thread/WARN]: [ViaVersion] Could not get handler DefaultChannelPipeline$TailContext#0
+[03:04:24] [Server thread/INFO]: [MasterCooldowns] Disabling MasterCooldowns v1.6.1
+[03:04:24] [Server thread/INFO]: [EaglerXServer] Disabling EaglercraftXServer v1.0.7
+[03:04:24] [Server thread/INFO]: [EaglerXServer] Disconnecting from skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[03:04:24] [Server thread/INFO]: [EaglerXServer] Disconnected from skin cache database successfully!
+[03:04:24] [Server thread/INFO]: [OldCombatMechanics] Disabling OldCombatMechanics v1.12.2
+[03:04:24] [Server thread/INFO]: [OldCombatMechanics] OldCombatMechanics v1.12.2 has been disabled
+[03:04:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v6.2.2-SNAPSHOT;8eeab68
+[03:04:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and waiting for any pending tasks...
+[03:04:24] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-b727
+[03:04:24] [Server thread/INFO]: [Bedwars1058-Leave-Delay] Disabling Bedwars1058-Leave-Delay v1.0.5
+[03:04:24] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[03:04:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[03:04:24] [Server thread/INFO]: [SlimeWorldManager] Disabling SlimeWorldManager v2.2.1
+[03:04:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.9;caf0ad9
+[03:04:24] [Server thread/INFO]: Saving players
+[03:04:24] [Server thread/INFO]: Saving worlds
+[03:04:24] [Server thread/INFO]: Saving chunks for level 'world'/overworld
